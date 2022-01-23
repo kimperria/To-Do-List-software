@@ -4,7 +4,7 @@ $(function(){
         if (task.length == ''){
             alert("Task name required");
         }else{
-            $('.selected-item').append(`<li>${task}<i class="far remove fa-window-close"></i></li>`)
+            $('.selected-item').append(`<li>${task}<i class="far remove fa-window-close fa-2x"></i></li>`)
             $('.remove').click(function(){
                $(this).closest('li').remove(); 
             });

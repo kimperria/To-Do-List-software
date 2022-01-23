@@ -11,15 +11,28 @@ h2{
     background-color: rgba(5, 28, 85, 0.8);
     color: white;
 }
+#divider{
+    height: 10px;
+    background-color: rgb(149, 178, 251);
+}
 #new-task{
     width: 50%;
 }
 .selected-item{
     list-style: none;
 }
+.selected-item li{
+    width: 50%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    margin: 10px;
+}
 .remove{
     color: red;
     margin-left: 10%;
+    width: auto;
+    height: 10px;
 }
 .clear{
     margin-left: 1rem;
