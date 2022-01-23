@@ -12,22 +12,21 @@
 </head>
 <body>
     <section class="container container-fluid">
-        <h2>To Do List</h2>
+        <h2 class="text-center">To Do List</h2>
         <div class="row">
-            <div>
+            <div class="d-flex justify-content-center">
                 <input type="text" placeholder="New Task">
+                <button class="btn btn-primary ms-2">ADD TASK</button>
             </div>
-        </div>
-        <button class="btn">ADD TASK</button>
+        </div>  
         <hr>
-
-        <h2>Tasks</h2>
-        <div class="seclected-tasks row">
-            <ul>
-                <li></li>
+        <h2 class="text-center">Tasks</h2>
+        <div class="selected-tasks row">
+            <ul class="selected-item col">
+                
             </ul>
         </div>
-        <button class="btn">Clear Task</button>
+        <button class="btn btn-danger">Clear List</button>
     </section> 
 </body>
 </html>
