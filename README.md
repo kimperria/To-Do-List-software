@@ -2,8 +2,8 @@
 WERA is a software to help users schedule their tasks.
 Wera a kenyan slang which means work/job. 
 
-# Screenshot
- [WERA TO-DO-LIST APP](https://github.com/John-Kimani/To-Do-List-software/blob/gh-pages/wera.png)
+## Screenshot
+ ![WERA TO-DO-LIST APP](https://github.com/John-Kimani/To-Do-List-software/blob/gh-pages/wera.png)
 ### Developed by;
 * HTML for structure.
 * CSS for custom styles.
